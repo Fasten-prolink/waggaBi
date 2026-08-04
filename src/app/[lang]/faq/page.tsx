@@ -13,7 +13,7 @@ export default async function FaqPage({ params }: { params: Promise<{ lang: stri
           ← {dict.sections.accueil}
         </a>
         <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-4">{dict.tarifs_section.faq_title}</h1>
-        <p className="text-xl text-gray-400 mb-12">Toutes les réponses à vos questions concernant l'école de parapente Waggas School.</p>
+        <p className="text-xl text-gray-400 mb-12">{dict.tarifs_section?.faq_page_subtitle || "Toutes les réponses à vos questions concernant l'école de parapente Waggas School."}</p>
         
         <FaqClient faqData={dict.tarifs_section.faq} />
       </div>
