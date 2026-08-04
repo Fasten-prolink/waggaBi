@@ -40,6 +40,7 @@ export default function HomeClient({ dict, lang }: { dict: any; lang: string }) 
 
   return (
     <main className="h-screen w-full bg-black overflow-y-auto overflow-x-hidden snap-y snap-mandatory scroll-smooth hide-scrollbar relative">
+      <h1 className="sr-only">{dict.seo?.h1 || "Waggas School - Parapente Dune du Pilat"}</h1>
       
       {/* HEADER FIXE */}
       <header className="fixed top-0 left-0 w-full p-6 md:p-10 flex justify-between items-center z-50 pointer-events-none">

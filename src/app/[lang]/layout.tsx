@@ -3,6 +3,7 @@ import { Inter, Outfit } from "next/font/google";
 import "../globals.css";
 import { i18n } from "@/i18n-config";
 import FloatingContact from "@/components/FloatingContact";
+import { getDictionary } from "@/get-dictionary";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -14,10 +15,34 @@ const outfit = Outfit({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Wagga's School | Vol Biplace Dune du Pilat",
-  description: "Découvrez la magie du parapente avec nos vols biplaces au-dessus de la Dune du Pilat. Réservez votre baptême de l'air dès aujourd'hui !",
-};
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  const dict = await getDictionary(lang as any);
+  
+  return {
+    title: dict.seo?.title || "Waggas School",
+    description: dict.seo?.description || "Waggas School Parapente",
+    keywords: dict.seo?.keywords || "",
+    alternates: {
+      canonical: `/${lang}`,
+      languages: {
+        'fr': '/fr',
+        'en': '/en',
+        'es': '/es',
+        'de': '/de',
+        'nl': '/nl',
+      },
+    },
+    openGraph: {
+      title: dict.seo?.title,
+      description: dict.seo?.description,
+      url: `https://waggaschool.com/${lang}`,
+      siteName: 'Waggas School',
+      locale: lang,
+      type: 'website',
+    },
+  };
+}
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }));
