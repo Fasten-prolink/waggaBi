@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "decouverte": "Entdeckungsflug",
+    "wagga": "Wagga Flug",
+    "tarifs": "Preise",
+    "reserver": "Buchen"
+  },
+  "sections": {
+    "accueil": "Startseite",
+    "ecole": "Die Schule",
+    "decouverte": "Entdeckungsflug",
+    "wagga": "Wagga Flug",
+    "tarifs": "Preise",
+    "retours": "Ihre Bewertungen",
+    "partenaires": "Partner"
+  },
+  "hero": {
+    "decouverte": {
+      "title": "Entdeckungsflug",
+      "price": "Ab 55€",
+      "explore": "Klicken zum Entdecken"
+    },
+    "wagga": {
+      "title": "Wagga Flug",
+      "price": "Ab 65€",
+      "explore": "Klicken zum Entdecken"
+    },
+    "scroll": "Scrollen"
+  },
+  "ecole": {
+    "title_prefix": "Über",
+    "title_highlight": "20 Jahre",
+    "subtitle": "Waggas School ist die Gleitschirmschule der Dune du Pilat.",
+    "p1": "Wir begleiten Sie beim Gleitschirmfliegen über die Dune du Pilat. Sie können das Becken von Arcachon und die Düne vom Himmel aus entdecken und diese einzigartige Landschaft bewundern...",
+    "p2": "Begleitet von einem staatlich geprüften Fluglehrer können Sie bei perfekt geeigneten Windverhältnissen sicher fliegen.",
+    "p3": "Start und Landung sind sanft, Sie müssen buchstäblich nichts anderes tun, als sich vom Fluglehrer leiten zu lassen."
+  },
+  "slides": {
+    "decouverte": {
+      "title": "Entdeckungsflug",
+      "desc": "Klassischer Tandemflug (10-15 Minuten), um die Dune du Pilat vom Himmel aus zu bewundern.",
+      "subtitle": "Für alle"
+    },
+    "wagga": {
+      "title": "Wagga Flug",
+      "desc": "Erlebnisflug (20 Minuten) mit dynamischer Steuerung und Akrobatik.",
+      "subtitle": "Flug für Nervenkitzel"
+    }
+  },
+  "tarifs_section": {
+    "title": "Preise",
+    "subtitle": "Alle unsere Angebote",
+    "faq_title": "FAQ",
+    "faq": [
+      {
+        "q": "Ist die Online-Buchung kostenpflichtig?",
+        "a": "Nein, die Buchung ist völlig kostenlos. Die Zahlung erfolgt vor Ort am Tag des Fluges."
+      },
+      {
+        "q": "Können wir den Flugtyp vor Ort ändern?",
+        "a": "Ja! Sie sind nur an die Dauer (10 oder 20 min) gebunden. Sie können am selben Tag zwischen 'Entdeckung' oder 'Sensation' wählen."
+      },
+      {
+        "q": "Welche Zahlungsmethoden werden akzeptiert?",
+        "a": "Wir akzeptieren Schecks (mit 2 Ausweisen) und Bargeld. Bitte beachten Sie: Kreditkarten und Urlaubsgutscheine werden nicht akzeptiert."
+      },
+      {
+        "q": "Was passiert bei schlechtem Wetter?",
+        "a": "Sie werden am Vortag zwischen 18 und 20 Uhr per E-Mail/SMS informiert. Wenn der Flug storniert wird, können Sie ihn online umbuchen."
+      },
+      {
+        "q": "Wie hoch ist die Alters- und Gewichtsgrenze?",
+        "a": "Die Aktivität ist von 5 bis 99 Jahren für ein Gewicht zwischen 25 kg und 120 kg (je nach Windverhältnissen) zugänglich."
+      },
+      {
+        "q": "Ist eine bestimmte körperliche Verfassung erforderlich?",
+        "a": "Nein, es ist für jeden zugänglich! Einzige Kontraindikationen: Schwangere, Knochenbrüchigkeit oder Hernie."
+      },
+      {
+        "q": "Bekommt man beim Gleitschirmfliegen Höhenangst?",
+        "a": "Gute Nachrichten: Sie leiden beim Gleitschirmfliegen nicht unter Höhenangst! Die Höhenangst verschwindet, sobald Ihre Füße den Boden nicht mehr berühren."
+      },
+      {
+        "q": "Bieten Sie eine Videooption an?",
+        "a": "Es ist kostenlos! Sie können Ihr eigenes Smartphone oder Ihre eigene Kamera mitbringen (denken Sie an einen Selfie-Stick)."
+      },
+      {
+        "q": "Können wir einen Geschenkgutschein kaufen?",
+        "a": "Ja, der Gutschein kann kostenlos auf unserer Website heruntergeladen werden! Die Zahlung erfolgt erst am Tag des Fluges, um den Service bei jedem Wetter zu garantieren."
+      },
+      {
+        "q": "Können wir ohne Termin fliegen?",
+        "a": "Buchungen haben Vorrang. Aber wenn wir vor Ort freie Plätze haben, ist es möglich!"
+      },
+      {
+        "q": "Wie kleidet man sich für den Flug?",
+        "a": "Kleidungsanweisungen werden Ihnen am Vortag per E-Mail mit der Wetterbestätigung zugesandt."
+      },
+      {
+        "q": "Sagen wir 'Sprung' oder 'Flug' beim Gleitschirmfliegen?",
+        "a": "Wir sprechen von einem FLUG! Wir heben sanft auf der Düne ab, wir springen nicht ins Leere."
+      },
+      {
+        "q": "Wie kommt man dorthin?",
+        "a": "Klicken Sie auf die Schaltfläche 'Venir à la Waggas School' direkt darüber, um die vollständige Reiseroute (Auto, Fuß, Boot, Bus) zu sehen."
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Entdeckungsflug (10 min)",
+        "price": "55€"
+      },
+      {
+        "name": "Entdeckungsflug (20 min)",
+        "price": "90€"
+      },
+      {
+        "name": "Wagga Erlebnisflug (10 min)",
+        "price": "65€"
+      },
+      {
+        "name": "Wagga Erlebnisflug (20 min)",
+        "price": "110€"
+      }
+    ],
+    "faq_intro": "Haben Sie Fragen? Finden Sie alle Informationen auf unserer FAQ-Seite oder kontaktieren Sie uns direkt.",
+    "view_all_availabilities": "Alle Verfügbarkeiten ansehen",
+    "access_title": "Anreise zur Waggas School",
+    "access_subtitle": "Auto • Bus • Boot • Zu Fuß",
+    "view_all_faq": "Alle Fragen ansehen",
+    "all_answers": "Alle Ihre Antworten"
+  },
+  "retours": {
+    "subtitle": "Fotos unserer Kunden im Flug",
+    "title": "Ihre Bewertungen",
+    "button": "Alle Bewertungen auf Google ansehen (561 Bewertungen)",
+    "reviews": [
+      {
+        "text": "\"Ich kann nicht genug Gutes über Waggas sagen, die uns heute bei unserem zweiten Gleitschirm-Abenteuer begleitet haben... Der ganze Prozess ist weniger stressig!\"",
+        "author": "- Solal"
+      },
+      {
+        "text": "\"Danke Arnaud für diesen unvergesslichen Moment! Ein Top-Erlebnisflug. Was für eine Freude! Das Team ist sehr freundlich und rücksichtsvoll.\"",
+        "author": "- Alexandra Corsi Chopin"
+      },
+      {
+        "text": "\"Was für ein Erlebnis! Die großartige Natur, außergewöhnliches Wetter mit gutem Wind, absolut professionelle und liebenswerte Fluglehrer. Tausend Dank an Arnold.\"",
+        "author": "- FABIENNE SIMSEK"
+      },
+      {
+        "text": "\"Waggas School ist ein tolles Team, top Organisation, Sie können mit geschlossenen Augen buchen! Ein Erlebnis, das man mit weit geöffneten Augen machen sollte!\"",
+        "author": "- Sarah Kaw"
+      },
+      {
+        "text": "\"Buchung für 4 Personen, darunter 2 Kinder. Alles war perfekt, die Fluglehrer sind extrem freundlich und aufmerksam... Ich kann es sehr empfehlen!\"",
+        "author": "- Mat"
+      },
+      {
+        "text": "\"Ein sehr angenehmer Flug mit herrlichem Blick auf das Becken und die Düne. Tolle Empfindungen beim Wagga-Flug. Sehr nette Fluglehrer!\"",
+        "author": "- Louna Turpaud"
+      },
+      {
+        "text": "\"Ein unvergessliches Erlebnis! Ein riesiges Dankeschön an das ganze Team und an Arnau für diesen wunderschönen Flug. Ich habe die 20-Minuten-Option gewählt und noch ein paar Minuten extra bekommen.\"",
+        "author": "- Carraki Lecumberri"
+      },
+      {
+        "text": "\"Danke Jack für dieses wunderbare Erlebnis. Es war ein lang gehegter Traum. Der Flug über die Dune du Pilat ist sehr zu empfehlen.\"",
+        "author": "- Katja K"
+      }
+    ]
+  },
+  "slide_controls": {
+    "prev": "Zurück",
+    "next": "Weiter"
+  },
+  "partenaires_section": {
+    "title": "Unsere Partner",
+    "subtitle": "Sie vertrauen uns und unterstützen uns jeden Tag."
+  },
+  "drawer_access": {
+    "title": "Anreise zur Waggas School",
+    "subtitle": "Nach Vereinbarung",
+    "intro1": "Im Schatten der Pinien oder unter der sanften Sonne der Dune du Pilat können Sie die Vielfalt dieses Ortes in vollen Zügen genießen.",
+    "intro2": "Ein flacher, schattiger Weg sorgt für Zugänglichkeit für alle Besucher.",
+    "car": {
+      "title": "Mit dem Auto",
+      "subtitle": "Parken",
+      "parking_name": "Parkplatz \"Le Sabloney\"",
+      "parking_desc1": "Parken Sie auf dem Schotterparkplatz",
+      "parking_desc2": "15 Min. Fußweg zu den Flaggen der Waggas School",
+      "button": "Parkplatz auf Maps öffnen"
+    },
+    "foot": {
+      "title": "Zu Fuß",
+      "subtitle": "Fußweg",
+      "desc1": "Vom Parkplatz aus folgen Sie dem Weg in Richtung Düne, der am Pyla Camping entlangführt (ca. 15 Min.).",
+      "desc2": "Gehen Sie bis zur Düne – achten Sie auf die Flaggen der Waggas School.",
+      "desc3": "Kommen Sie 30 Min. vor der Flugzeit an.",
+      "button": "Genauer Standort der Schule"
+    },
+    "boat": {
+      "title": "Mit dem Boot",
+      "desc1": "Wenn Sie ein eigenes Boot haben, können Sie am Fuß der Dune du Pilat am Strand \"Robinson\" ankern und uns zu Fuß 50 Meter weiter oben bei den Flaggen erreichen.",
+      "subtitle": "Boot-Shuttles (UBA)",
+      "desc2": "Sie können sich auch für die UBA-Shuttles entscheiden.",
+      "desc3": "Im Sommer werden Shuttles organisiert, die Sie von Arcachon, Le Moulleau (Pyla sur Mer), Cap Ferret... zum Fuß der Dune du Pyla \"Strand Robinson\" bringen."
+    },
+    "bus": {
+      "title": "Mit dem Bus",
+      "desc1": "Wenn Sie an der Haltestelle \"Pyla Camping\" aussteigen, erreichen Sie uns über den Waldweg zwischen Pyla Camping und Panorama Camping zum Startplatz (10 Min.).",
+      "warning": "Da der Pyla Camping Privatbesitz ist, ist das Überqueren verboten.",
+      "from_arcachon": "Von Arcachon",
+      "arcachon_desc1": "Nehmen Sie die Linie 3 und steigen Sie an der Haltestelle \"Pyla Camping\" aus.",
+      "arcachon_desc2": "Wenn Sie an der Haltestelle \"Pyla Camping\" aussteigen, können Sie den Pyla Camping kostenlos und frei zu Fuß überqueren, um zum Startplatz zu gelangen (10 Min.).",
+      "from_lateste": "Von La Teste de Buch",
+      "lateste_desc1": "Vom Messegelände La Teste de Buch bis zur Dune du Pyla werden Shuttles eingesetzt. Nehmen Sie die Buslinie 3 bis zur Haltestelle \"Pyla Camping\".",
+      "lateste_desc2": "Treffen Sie uns am Ausgang des Campingplatzes \"Strandzugang\" (Dünenseite).",
+      "lateste_desc3": "Sie erkennen uns an unseren Waggas School-Flaggen, die sich 200 m vom Campingplatz entfernt auf der Dune du Pilat befinden."
+    }
+  }
+}

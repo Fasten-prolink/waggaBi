@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "decouverte": "Discovery Flight",
+    "wagga": "Wagga Flight",
+    "tarifs": "Pricing",
+    "reserver": "Book Now"
+  },
+  "sections": {
+    "accueil": "Home",
+    "ecole": "The School",
+    "decouverte": "Discovery Flight",
+    "wagga": "Wagga Flight",
+    "tarifs": "Pricing",
+    "retours": "Reviews",
+    "partenaires": "Partners"
+  },
+  "hero": {
+    "decouverte": {
+      "title": "Discovery Flight",
+      "price": "From 55€",
+      "explore": "Click to explore"
+    },
+    "wagga": {
+      "title": "Wagga Flight",
+      "price": "From 65€",
+      "explore": "Click to explore"
+    },
+    "scroll": "Scroll"
+  },
+  "ecole": {
+    "title_prefix": "Over",
+    "title_highlight": "20 years",
+    "subtitle": "Waggas School is the paragliding school of the Dune du Pilat.",
+    "p1": "We accompany you in paragliding to fly over the Dune du Pilat. You can discover the Arcachon Basin and the Dune from the sky and admire this unique landscape with the sandbanks and oyster parks of the Arguin bank, Cap Ferret...",
+    "p2": "Accompanied by a state-certified instructor, you can fly safely in wind conditions perfectly suited for paragliding.",
+    "p3": "Takeoff and landing phases are gentle; you literally have nothing to do but let the instructor guide you."
+  },
+  "slides": {
+    "decouverte": {
+      "title": "Discovery Flight",
+      "desc": "Classic tandem flight (10-15 mins) to admire the Dune du Pilat from the sky.",
+      "subtitle": "For everyone"
+    },
+    "wagga": {
+      "title": "Wagga Flight",
+      "desc": "Thrill flight (20 mins) with dynamic piloting and acrobatics.",
+      "subtitle": "Thrill flight"
+    }
+  },
+  "tarifs_section": {
+    "title": "Pricing",
+    "subtitle": "All our packages",
+    "faq_title": "FAQ",
+    "faq": [
+      {
+        "q": "Is online booking paid?",
+        "a": "No, booking is completely free. Payment is made on site on the day of the flight."
+      },
+      {
+        "q": "Can we change the flight type on site?",
+        "a": "Yes! You are only committed to the duration (10 or 20 min). You can choose between 'discovery' or 'sensation' on the big day."
+      },
+      {
+        "q": "What payment methods are accepted?",
+        "a": "We accept Checks (with 2 IDs) and Cash. Please note: Credit cards and holiday vouchers are not accepted."
+      },
+      {
+        "q": "What happens in case of bad weather?",
+        "a": "You will be informed the day before between 6pm and 8pm by email/SMS. If the flight is canceled, you can reschedule online."
+      },
+      {
+        "q": "What is the age and weight limit?",
+        "a": "The activity is accessible from 5 to 99 years old, for a weight between 25 kg and 120 kg (depending on wind conditions)."
+      },
+      {
+        "q": "Is a specific physical condition required?",
+        "a": "No, it's accessible to everyone! Only contraindications: pregnant women, bone fragility, or hernia."
+      },
+      {
+        "q": "Do you get vertigo in paragliding?",
+        "a": "Good news: you do not suffer from vertigo in paragliding! Vertigo disappears as soon as your feet no longer touch the ground."
+      },
+      {
+        "q": "Do you offer a video option?",
+        "a": "It's free! You can bring your own smartphone or camera (remember to bring a selfie stick)."
+      },
+      {
+        "q": "Can we buy a gift voucher?",
+        "a": "Yes, the voucher can be downloaded for free on our site! Payment will only be made on the day of the flight to guarantee the service against the weather."
+      },
+      {
+        "q": "Can we fly without an appointment?",
+        "a": "Bookings have priority. But if we have empty slots on site, it's possible!"
+      },
+      {
+        "q": "How to dress for the flight?",
+        "a": "Clothing instructions will be sent to you the day before by email with the weather confirmation."
+      },
+      {
+        "q": "Do we say 'jump' or 'flight' in paragliding?",
+        "a": "We are talking about a FLIGHT! We take off gently on the dune, we do not jump into the void."
+      },
+      {
+        "q": "How to get there?",
+        "a": "Click on the 'Venir à la Waggas School' button just above to see the complete itinerary (Car, Foot, Boat, Bus)."
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Discovery Flight (10 min)",
+        "price": "55€"
+      },
+      {
+        "name": "Discovery Flight (20 min)",
+        "price": "90€"
+      },
+      {
+        "name": "Wagga Sensation Flight (10 min)",
+        "price": "65€"
+      },
+      {
+        "name": "Wagga Sensation Flight (20 min)",
+        "price": "110€"
+      }
+    ],
+    "faq_intro": "Do you have any questions? Find all the information on our FAQ page or contact us directly.",
+    "view_all_availabilities": "View all availabilities",
+    "access_title": "Come to Waggas school",
+    "access_subtitle": "Car • Bus • Boat • On foot",
+    "view_all_faq": "View all questions",
+    "all_answers": "All your answers"
+  },
+  "retours": {
+    "subtitle": "Photos of our clients flying",
+    "title": "Your Reviews",
+    "button": "See all reviews on Google (561 reviews)",
+    "reviews": [
+      {
+        "text": "\"I cannot say enough good things about Waggas who accompanied us today on our second paragliding adventure... The entire process is less stressful!\"",
+        "author": "- Solal"
+      },
+      {
+        "text": "\"Thank you Arnaud for this unforgettable moment! A top 'thrill' flight. What a joy! The team is very friendly and considerate. Flying over the Dune du Pyla like this is a pure marvel.\"",
+        "author": "- Alexandra Corsi Chopin"
+      },
+      {
+        "text": "\"What an experience! The magnificent natural site, exceptional weather with good wind, perfectly professional and adorable instructors. A thousand thanks to Arnold for this unforgettable flight.\"",
+        "author": "- FABIENNE SIMSEK"
+      },
+      {
+        "text": "\"Waggas School is a brilliant team, top organization, you can book with your eyes closed! An experience to be done with your eyes wide open because it's simply magical!!\"",
+        "author": "- Sarah Kaw"
+      },
+      {
+        "text": "\"Booking made for 4 people including 2 kids. Everything was perfect, the instructors are extremely kind and attentive... For a first time, it's a great memory. I highly recommend!\"",
+        "author": "- Mat"
+      },
+      {
+        "text": "\"A very pleasant flight with a magnificent view of the basin and the dune. Good thrills for the waggas flight. Very nice instructors! I recommend!\"",
+        "author": "- Louna Turpaud"
+      },
+      {
+        "text": "\"An unforgettable experience! A huge thank you to the whole team and to Arnau for this beautiful flight. I chose the 20-minute option and was given a few extra minutes.\"",
+        "author": "- Carraki Lecumberri"
+      },
+      {
+        "text": "\"Thank you Jack for this wonderful experience. It was a long-time dream. Flying over the Dune du Pilat is highly recommended. I will definitely book another flight.\"",
+        "author": "- Katja K"
+      }
+    ]
+  },
+  "slide_controls": {
+    "prev": "Back",
+    "next": "Next"
+  },
+  "partenaires_section": {
+    "title": "Our partners",
+    "subtitle": "They trust us and support us every day."
+  },
+  "drawer_access": {
+    "title": "Getting to Waggas school",
+    "subtitle": "By appointment",
+    "intro1": "In the shade of the pines or under the gentle sun of the Dune du Pilat, you can fully enjoy the diversity this site offers.",
+    "intro2": "A flat, shaded path ensures accessibility for all visitors.",
+    "car": {
+      "title": "By car",
+      "subtitle": "Parking",
+      "parking_name": "Parking \"Le Sabloney\"",
+      "parking_desc1": "Park in the gravel parking lot",
+      "parking_desc2": "15 min walk to the Waggas School flags",
+      "button": "Open Parking on Maps"
+    },
+    "foot": {
+      "title": "On foot",
+      "subtitle": "Walking route",
+      "desc1": "From the parking lot, follow the path towards the dune that runs alongside Pyla Camping (about 15 min).",
+      "desc2": "Take it to the dune – look for the Waggas School flags.",
+      "desc3": "Arrive 30 min before flight time.",
+      "button": "Exact location of the school"
+    },
+    "boat": {
+      "title": "By boat",
+      "desc1": "If you have your own boat, you can anchor at the foot of the Dune du Pilat on \"Robinson\" beach and join us on foot 50 meters higher at the flags.",
+      "subtitle": "Boat shuttles (UBA)",
+      "desc2": "You can also opt for the UBA shuttles.",
+      "desc3": "Summer shuttles are organized to take you to the foot of the Dune du Pyla \"Robinson beach\" departing from Arcachon, Le Moulleau (Pyla sur Mer), Cap Ferret…"
+    },
+    "bus": {
+      "title": "By bus",
+      "desc1": "Once you get off at the \"Pyla Camping\" stop, you can reach us by walking on the forest path located between Pyla Camping and Panorama Camping, to get to the takeoff site (10min).",
+      "warning": "As Pyla Camping is private property, crossing it is prohibited.",
+      "from_arcachon": "From Arcachon",
+      "arcachon_desc1": "Take Line 3 and get off at the \"Pyla Camping\" stop.",
+      "arcachon_desc2": "Once you get off at the \"Pyla Camping\" stop, you can freely and cross Pyla Camping on foot for free to get to the takeoff site (10min).",
+      "from_lateste": "From La Teste de Buch",
+      "lateste_desc1": "Shuttles are set up from the La Teste de Buch Exhibition Center to the Dune du Pyla. Take bus line 3 to the \"Pyla Camping\" stop.",
+      "lateste_desc2": "Join us at the campsite exit \"beach access\" (dune side).",
+      "lateste_desc3": "You will be able to identify us thanks to our Waggas School flags located 200m from the campsite, on the Dune du Pilat."
+    }
+  }
+}

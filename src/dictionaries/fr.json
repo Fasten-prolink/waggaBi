@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "decouverte": "Vol Découverte",
+    "wagga": "Vol Wagga",
+    "tarifs": "Tarifs",
+    "reserver": "Réserver"
+  },
+  "sections": {
+    "accueil": "Accueil",
+    "ecole": "L'École",
+    "decouverte": "Vol Découverte",
+    "wagga": "Vol Wagga",
+    "tarifs": "Tarifs",
+    "retours": "Vos Retours",
+    "partenaires": "Partenaires"
+  },
+  "hero": {
+    "decouverte": {
+      "title": "Vol Découverte",
+      "price": "À partir de 55€",
+      "explore": "Cliquez pour explorer"
+    },
+    "wagga": {
+      "title": "Vol Wagga",
+      "price": "À partir de 65€",
+      "explore": "Cliquez pour explorer"
+    },
+    "scroll": "Scroll"
+  },
+  "ecole": {
+    "title_prefix": "Depuis plus de",
+    "title_highlight": "20 ans",
+    "subtitle": "La Waggas School, c'est l'école de parapente de la Dune du Pilat.",
+    "p1": "Nous vous accompagnons en parapente pour voler au dessus de la dune du Pilat. Vous pourrez découvrir le Bassin d’Arcachon et la Dune vus du ciel et admirer ce paysage unique avec les bancs de sables et les parcs à huîtres du banc d’Arguin, le Cap Ferret…",
+    "p2": "Accompagné par un moniteur brevet d’État, vous pourrez voler en toute sécurité dans des conditions de vent parfaitement adaptées à l’activité parapente.",
+    "p3": "Les phases de décollage et d’atterrissage sont douces, vous n’avez rien à faire à part vous laisser guider par le moniteur."
+  },
+  "slides": {
+    "decouverte": {
+      "title": "Vol Découverte",
+      "desc": "Baptême de l'air classique (10-15 mins) pour contempler la Dune du Pilat vue du ciel.",
+      "subtitle": "Formule tous publics"
+    },
+    "wagga": {
+      "title": "Vol Wagga",
+      "desc": "Vol sensation (20 mins) avec pilotage dynamique et acrobaties.",
+      "subtitle": "Vol sensation"
+    }
+  },
+  "tarifs_section": {
+    "title": "Tarifs",
+    "subtitle": "Toutes nos formules",
+    "faq_title": "FAQ",
+    "faq": [
+      {
+        "q": "La réservation en ligne est-elle payante ?",
+        "a": "Non, la réservation est entièrement gratuite. Le règlement s'effectue sur place le jour du vol."
+      },
+      {
+        "q": "Peut-on changer de type de vol sur place ?",
+        "a": "Oui ! Vous êtes uniquement engagé sur la durée (10 ou 20 min). Vous pourrez choisir entre 'découverte' ou 'sensation' le jour J."
+      },
+      {
+        "q": "Quels sont les moyens de paiement acceptés ?",
+        "a": "Nous acceptons les Chèques (avec 2 pièces d'identité) et les Espèces. Attention : CB et chèques vacances non acceptés."
+      },
+      {
+        "q": "Que se passe-t-il en cas de mauvaise météo ?",
+        "a": "Vous serez informé la veille entre 18h et 20h par mail/SMS. Si le vol est annulé, vous pourrez le reporter en ligne."
+      },
+      {
+        "q": "Quel est l'âge et le poids limite ?",
+        "a": "L'activité est accessible de 5 à 99 ans, pour un poids compris entre 25 kg et 120 kg (selon les conditions de vent)."
+      },
+      {
+        "q": "Faut-il une condition physique particulière ?",
+        "a": "Non, c'est accessible à tous ! Seules contre-indications : femmes enceintes, fragilité osseuse ou hernie."
+      },
+      {
+        "q": "A-t-on le vertige en parapente ?",
+        "a": "Bonne nouvelle : on ne souffre pas du vertige en parapente ! Le vertige disparaît dès que les pieds ne touchent plus le sol."
+      },
+      {
+        "q": "Proposez-vous une option vidéo ?",
+        "a": "C'est gratuit ! Vous pouvez embarquer votre propre smartphone ou caméra (pensez à prendre une perche)."
+      },
+      {
+        "q": "Peut-on acheter un bon cadeau ?",
+        "a": "Oui, le bon est téléchargeable gratuitement sur notre site ! Le paiement ne se fera que le jour du vol pour garantir la prestation face à la météo."
+      },
+      {
+        "q": "Peut-on voler sans rendez-vous ?",
+        "a": "Les réservations sont prioritaires. Mais si nous avons des places vacantes sur place, c'est possible !"
+      },
+      {
+        "q": "Comment s'habiller pour le vol ?",
+        "a": "Les consignes vestimentaires vous seront envoyées la veille par mail avec la confirmation météo."
+      },
+      {
+        "q": "Dit-on 'saut' ou 'vol' en parapente ?",
+        "a": "On parle bien de VOL ! On décolle en douceur sur la dune, on ne saute pas dans le vide."
+      },
+      {
+        "q": "Comment se rendre sur place ?",
+        "a": "Cliquez sur le bouton 'Venir à la Waggas School' juste au-dessus pour voir l'itinéraire complet (Voiture, Pied, Bateau, Bus)."
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Baptême découverte (10 min)",
+        "price": "55€"
+      },
+      {
+        "name": "Baptême découverte (20 min)",
+        "price": "90€"
+      },
+      {
+        "name": "Baptême sensation Wagga (10 min)",
+        "price": "65€"
+      },
+      {
+        "name": "Baptême sensation Wagga (20 min)",
+        "price": "110€"
+      }
+    ],
+    "faq_intro": "Vous avez des questions ? Retrouvez toutes les informations sur notre page FAQ ou contactez-nous directement.",
+    "view_all_availabilities": "Voir toutes les disponibilités",
+    "access_title": "Venir à la Waggas school",
+    "access_subtitle": "Voiture • Bus • Bateau • À pied",
+    "view_all_faq": "Voir toutes les questions",
+    "all_answers": "Toutes vos réponses"
+  },
+  "retours": {
+    "subtitle": "Photos de nos clients en plein vol",
+    "title": "Vos Retours",
+    "button": "Voir tous les avis sur Google (561 avis)",
+    "reviews": [
+      {
+        "text": "\"Je ne saurais que dire du bien de Waggas qui nous a aujourd’hui accompagné dans notre deuxième aventure en parapente... L’entièreté du processus est moins stressant !\"",
+        "author": "- Solal"
+      },
+      {
+        "text": "\"Merci Arnaud pour ce moment inoubliable ! Un vol « sensations » au top. Quel bonheur ! L’équipe est très sympathique et prévenante. Survoler ainsi la Dune du Pyla est une pure merveille.\"",
+        "author": "- Alexandra Corsi Chopin"
+      },
+      {
+        "text": "\"Quelle expérience ! Le site naturel grandiose, un temps exceptionnel avec le bon vent, des moniteurs d un professionnalisme sans faille et adorables. Mille merci à Arnold pour ce vol inoubliable.\"",
+        "author": "- FABIENNE SIMSEK"
+      },
+      {
+        "text": "\"Waggas School une équipe géniale une organisation au top vous pouvez réserver les yeux fermés ! Expérience à faire les yeux grands ouverts parce qu'elle est magique !!\"",
+        "author": "- Sarah Kaw"
+      },
+      {
+        "text": "\"Réservation faite pour 4 personnes dont 2 enfants. Tout était parfait, les moniteurs sont extrêmement gentils et attentifs... Pour une première c’est un super souvenir. Je recommande !\"",
+        "author": "- Mat"
+      },
+      {
+        "text": "\"Un vol très agréable avec une magnifique vue sur le bassin et la dune. De bonnes sensations pour le vol waggas. Des moniteurs très sympas ! Je recommande !\"",
+        "author": "- Louna Turpaud"
+      },
+      {
+        "text": "\"Une expérience inoubliable ! Un grand merci à toute l'équipe et à Arnau pour ce vol magnifique. J'avais choisi l'option de 20 minutes et on m'a offert quelques minutes supplémentaires.\"",
+        "author": "- Carraki Lecumberri"
+      },
+      {
+        "text": "\"Merci Jack pour cette expérience merveilleuse. C'était un rêve de longue date. Le survol de la Dune du Pilée est vivement recommandé. Je réserverai sans aucun doute un autre vol.\"",
+        "author": "- Katja K"
+      }
+    ]
+  },
+  "slide_controls": {
+    "prev": "Retour",
+    "next": "Suivant"
+  },
+  "partenaires_section": {
+    "title": "Nos partenaires",
+    "subtitle": "Ils nous font confiance et nous accompagnent au quotidien."
+  },
+  "drawer_access": {
+    "title": "Venir à la Waggas school",
+    "subtitle": "Sur RDV",
+    "intro1": "À l’ombre des pins ou sous le doux soleil de la Dune du Pilat, vous pourrez pleinement profiter de la diversité qu’offre ce site.",
+    "intro2": "Un chemin plat et ombragé assure l’accessibilité pour tous les visiteurs.",
+    "car": {
+      "title": "En voiture",
+      "subtitle": "Stationnement",
+      "parking_name": "Parking « Le Sabloney »",
+      "parking_desc1": "Garez-vous sur le parking en gravier",
+      "parking_desc2": "15 min de marche jusqu’aux drapeaux Waggas School",
+      "button": "Ouvrir le Parking sur Maps"
+    },
+    "foot": {
+      "title": "A pied",
+      "subtitle": "Itinéraire à pied",
+      "desc1": "Depuis le parking, suivez le chemin en direction de la dune qui longe le Pyla Camping (environ 15 min).",
+      "desc2": "Prenez-le jusqu’à la dune – repérez les drapeaux Waggas School.",
+      "desc3": "Arrivez 30 min avant l’horaire de vol.",
+      "button": "Position exacte de l'école"
+    },
+    "boat": {
+      "title": "En bateau",
+      "desc1": "Si vous possédez votre propre embarcation, vous pourrez vous mettre en mouillage au pied de la Dune du Pilat sur la plage « Robinson » et nous rejoindre à pied 50 mètres plus haut au niveau des drapeaux.",
+      "subtitle": "Navettes bateaux (UBA)",
+      "desc2": "Vous pouvez également opter pour les navettes UBA.",
+      "desc3": "Des navettes estivales sont organisées pour vous rendre au pied de la Dune du Pyla « plage Robinson » au départ d’Arcachon, Le Moulleau (Pyla sur Mer), Cap ferret…"
+    },
+    "bus": {
+      "title": "En bus",
+      "desc1": "Une fois descendu à l’arrêt « Pyla Camping », vous pourrez nous rejoindre en marchant sur le chemin forestier situé entre le Pyla Camping et le Panorama Camping, afin de vous rendre sur le lieu de décollage (10mn).",
+      "warning": "Le Pyla Camping étant une propriété privée, sa traversée est interdite.",
+      "from_arcachon": "Depuis Arcachon",
+      "arcachon_desc1": "Prendre la Ligne 3 descendre à l’arrêt « Pyla Camping ».",
+      "arcachon_desc2": "Une fois descendu à l’arrêt « Pyla Camping », vous pourrez librement et gratuitement traverser à pied le Pyla Camping pour vous rendre sur le lieu de décollage (10mn).",
+      "from_lateste": "Depuis La Teste de Buch",
+      "lateste_desc1": "Des navettes sont mises en place depuis le Parc des expositions de La teste de Buch jusqu’à la Dune du Pyla. Prendre le bus ligne 3 jusqu’à l’arrêt « Pyla Camping ».",
+      "lateste_desc2": "Rejoignez nous à la sortie du camping « accès plage » (coté dune).",
+      "lateste_desc3": "Vous pourrez nous identifier grâce à nos drapeaux Waggas School situés à 200m du camping, sur la Dune du Pilat."
+    }
+  }
+}

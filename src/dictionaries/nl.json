@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "decouverte": "Ontdekkingsvlucht",
+    "wagga": "Wagga Vlucht",
+    "tarifs": "Prijzen",
+    "reserver": "Boeken"
+  },
+  "sections": {
+    "accueil": "Home",
+    "ecole": "De School",
+    "decouverte": "Ontdekkingsvlucht",
+    "wagga": "Wagga Vlucht",
+    "tarifs": "Prijzen",
+    "retours": "Uw Beoordelingen",
+    "partenaires": "Partners"
+  },
+  "hero": {
+    "decouverte": {
+      "title": "Ontdekkingsvlucht",
+      "price": "Vanaf 55€",
+      "explore": "Klik om te verkennen"
+    },
+    "wagga": {
+      "title": "Wagga Vlucht",
+      "price": "Vanaf 65€",
+      "explore": "Klik om te verkennen"
+    },
+    "scroll": "Scrollen"
+  },
+  "ecole": {
+    "title_prefix": "Meer dan",
+    "title_highlight": "20 jaar",
+    "subtitle": "Waggas School is de paragliding school van de Dune du Pilat.",
+    "p1": "Wij begeleiden u met paragliden over de Dune du Pilat. U kunt het bekken van Arcachon en de duin vanuit de lucht ontdekken en dit unieke landschap bewonderen...",
+    "p2": "Onder begeleiding van een gediplomeerde instructeur kunt u veilig vliegen in windomstandigheden die perfect geschikt zijn voor paragliding.",
+    "p3": "Het opstijgen en landen verlopen soepel, u hoeft letterlijk niets anders te doen dan u te laten leiden door de instructeur."
+  },
+  "slides": {
+    "decouverte": {
+      "title": "Ontdekkingsvlucht",
+      "desc": "Klassieke tandemvlucht (10-15 minuten) om de Dune du Pilat vanuit de lucht te bewonderen.",
+      "subtitle": "Voor iedereen"
+    },
+    "wagga": {
+      "title": "Wagga Vlucht",
+      "desc": "Sensatievlucht (20 minuten) met dynamische besturing en acrobatiek.",
+      "subtitle": "Sensatievlucht"
+    }
+  },
+  "tarifs_section": {
+    "title": "Prijzen",
+    "subtitle": "Al onze formules",
+    "faq_title": "Veelgestelde Vragen",
+    "faq": [
+      {
+        "q": "Is online boeken betalend?",
+        "a": "Nee, boeken is helemaal gratis. Betaling gebeurt ter plaatse op de dag van de vlucht."
+      },
+      {
+        "q": "Kunnen we het vluchttype ter plaatse wijzigen?",
+        "a": "Ja! U bent alleen gebonden aan de duur (10 of 20 min). U kunt op de dag zelf kiezen tussen 'ontdekking' of 'sensatie'."
+      },
+      {
+        "q": "Welke betaalmethoden worden geaccepteerd?",
+        "a": "Wij accepteren Cheques (met 2 ID's) en Contant geld. Let op: Creditcards en vakantiecheques worden niet geaccepteerd."
+      },
+      {
+        "q": "Wat gebeurt er bij slecht weer?",
+        "a": "U wordt de dag ervoor tussen 18u en 20u per e-mail/sms op de hoogte gebracht. Als de vlucht wordt geannuleerd, kunt u online een nieuwe afspraak maken."
+      },
+      {
+        "q": "Wat is de leeftijds- en gewichtslimiet?",
+        "a": "De activiteit is toegankelijk van 5 tot 99 jaar oud, voor een gewicht tussen 25 kg en 120 kg (afhankelijk van de windomstandigheden)."
+      },
+      {
+        "q": "Is er een specifieke fysieke conditie vereist?",
+        "a": "Nee, het is voor iedereen toegankelijk! Enige contra-indicaties: zwangere vrouwen, broosheid van de botten of hernia."
+      },
+      {
+        "q": "Krijg je hoogtevrees bij paragliden?",
+        "a": "Goed nieuws: u heeft geen last van hoogtevrees bij paragliden! Hoogtevrees verdwijnt zodra uw voeten de grond niet meer raken."
+      },
+      {
+        "q": "Biedt u een video-optie aan?",
+        "a": "Het is gratis! U kunt uw eigen smartphone of camera meenemen (vergeet geen selfiestick mee te nemen)."
+      },
+      {
+        "q": "Kunnen we een cadeaubon kopen?",
+        "a": "Ja, de bon kan gratis worden gedownload op onze site! De betaling vindt pas plaats op de dag van de vlucht om de service tegen het weer te garanderen."
+      },
+      {
+        "q": "Kunnen we vliegen zonder afspraak?",
+        "a": "Boekingen hebben voorrang. Maar als we ter plaatse vrije plaatsen hebben, is het mogelijk!"
+      },
+      {
+        "q": "Hoe kleed je je voor de vlucht?",
+        "a": "Kledinginstructies worden u de dag ervoor per e-mail toegestuurd met de weerbevestiging."
+      },
+      {
+        "q": "Zeggen we 'sprong' of 'vlucht' bij paragliden?",
+        "a": "We hebben het over een VLUCHT! We stijgen rustig op op het duin, we springen niet in het niets."
+      },
+      {
+        "q": "Hoe kom je er?",
+        "a": "Klik op de knop 'Venir à la Waggas School' net daarboven om de volledige routebeschrijving (Auto, Voet, Boot, Bus) te zien."
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Ontdekkingsvlucht (10 min)",
+        "price": "55€"
+      },
+      {
+        "name": "Ontdekkingsvlucht (20 min)",
+        "price": "90€"
+      },
+      {
+        "name": "Wagga Sensatievlucht (10 min)",
+        "price": "65€"
+      },
+      {
+        "name": "Wagga Sensatievlucht (20 min)",
+        "price": "110€"
+      }
+    ],
+    "faq_intro": "Heeft u vragen? Vind alle informatie op onze FAQ-pagina of neem direct contact met ons op.",
+    "view_all_availabilities": "Bekijk alle beschikbaarheid",
+    "access_title": "Kom naar Waggas school",
+    "access_subtitle": "Auto • Bus • Boot • Te voet",
+    "view_all_faq": "Bekijk alle vragen",
+    "all_answers": "Al uw antwoorden"
+  },
+  "retours": {
+    "subtitle": "Foto's van onze klanten tijdens de vlucht",
+    "title": "Uw Beoordelingen",
+    "button": "Bekijk alle beoordelingen op Google (561 beoordelingen)",
+    "reviews": [
+      {
+        "text": "\"Ik kan niet genoeg goede dingen zeggen over Waggas die ons vandaag vergezelden op ons tweede paragliding avontuur... Het hele proces is minder stressvol!\"",
+        "author": "- Solal"
+      },
+      {
+        "text": "\"Bedankt Arnaud voor dit onvergetelijke moment! Een geweldige 'sensatie' vlucht. Wat een vreugde! Het team is erg vriendelijk en attent.\"",
+        "author": "- Alexandra Corsi Chopin"
+      },
+      {
+        "text": "\"Wat een ervaring! De prachtige natuurlijke site, uitzonderlijk weer met goede wind, onberispelijk professionele en schattige instructeurs. Duizendmaal dank aan Arnold.\"",
+        "author": "- FABIENNE SIMSEK"
+      },
+      {
+        "text": "\"Waggas School is een geweldig team, toporganisatie, je kunt met je ogen dicht boeken! Een ervaring om met wijd open ogen te doen, want het is gewoon magisch!!\"",
+        "author": "- Sarah Kaw"
+      },
+      {
+        "text": "\"Boeking gemaakt voor 4 personen, waaronder 2 kinderen. Alles was perfect, de instructeurs zijn uiterst vriendelijk en attent... Ik raad het ten zeerste aan!\"",
+        "author": "- Mat"
+      },
+      {
+        "text": "\"Een zeer aangename vlucht met een prachtig uitzicht op het bekken en de duin. Goede sensaties voor de wagga vlucht. Erg aardige instructeurs!\"",
+        "author": "- Louna Turpaud"
+      },
+      {
+        "text": "\"Een onvergetelijke ervaring! Een enorme dank aan het hele team en aan Arnau voor deze prachtige vlucht. Ik koos voor de optie van 20 minuten en kreeg een paar extra minuten.\"",
+        "author": "- Carraki Lecumberri"
+      },
+      {
+        "text": "\"Bedankt Jack voor deze geweldige ervaring. Het was een langgekoesterde droom. Vliegen over de Dune du Pilat is een echte aanrader.\"",
+        "author": "- Katja K"
+      }
+    ]
+  },
+  "slide_controls": {
+    "prev": "Terug",
+    "next": "Volgende"
+  },
+  "partenaires_section": {
+    "title": "Onze partners",
+    "subtitle": "Ze vertrouwen ons en ondersteunen ons elke dag."
+  },
+  "drawer_access": {
+    "title": "Naar Waggas school komen",
+    "subtitle": "Op afspraak",
+    "intro1": "In de schaduw van de dennenbomen of onder de zachte zon van de Dune du Pilat kunt u volop genieten van de diversiteit die deze plek biedt.",
+    "intro2": "Een vlak en schaduwrijk pad zorgt voor toegankelijkheid voor alle bezoekers.",
+    "car": {
+      "title": "Met de auto",
+      "subtitle": "Parkeren",
+      "parking_name": "Parkeerplaats \"Le Sabloney\"",
+      "parking_desc1": "Parkeer op de onverharde parkeerplaats",
+      "parking_desc2": "15 min lopen naar de Waggas School vlaggen",
+      "button": "Open parkeren in Maps"
+    },
+    "foot": {
+      "title": "Te voet",
+      "subtitle": "Wandelroute",
+      "desc1": "Volg vanaf de parkeerplaats het pad richting de duin dat langs Pyla Camping loopt (ongeveer 15 min).",
+      "desc2": "Neem het pad naar de duin – let op de Waggas School vlaggen.",
+      "desc3": "Zorg dat u 30 min voor de vluchttijd aanwezig bent.",
+      "button": "Exacte locatie van de school"
+    },
+    "boat": {
+      "title": "Met de boot",
+      "desc1": "Als u een eigen boot heeft, kunt u voor anker gaan aan de voet van de Dune du Pilat op het strand \"Robinson\" en ons te voet bereiken op 50 meter hoogte bij de vlaggen.",
+      "subtitle": "Boot shuttles (UBA)",
+      "desc2": "U kunt ook kiezen voor de UBA shuttles.",
+      "desc3": "In de zomer worden er shuttles georganiseerd die u naar de voet van de Dune du Pyla \"strand Robinson\" brengen vanuit Arcachon, Le Moulleau (Pyla sur Mer), Cap Ferret…"
+    },
+    "bus": {
+      "title": "Met de bus",
+      "desc1": "Zodra u uitstapt bij de halte \"Pyla Camping\", kunt u ons bereiken door te wandelen over het bospad gelegen tussen Pyla Camping en Panorama Camping, om zo naar de startplaats te gaan (10 min).",
+      "warning": "Aangezien Pyla Camping privéterrein is, is het verboden dit te doorkruisen.",
+      "from_arcachon": "Vanuit Arcachon",
+      "arcachon_desc1": "Neem Lijn 3 en stap uit bij de halte \"Pyla Camping\".",
+      "arcachon_desc2": "Zodra u uitstapt bij de halte \"Pyla Camping\", kunt u vrij en gratis te voet Pyla Camping doorkruisen om naar de startplaats te gaan (10 min).",
+      "from_lateste": "Vanuit La Teste de Buch",
+      "lateste_desc1": "Er rijden shuttles vanaf het expositiecentrum van La Teste de Buch naar de Dune du Pyla. Neem buslijn 3 naar de halte \"Pyla Camping\".",
+      "lateste_desc2": "Ontmoet ons bij de uitgang van de camping \"toegang strand\" (kant van de duin).",
+      "lateste_desc3": "U kunt ons herkennen aan onze Waggas School vlaggen, gelegen op 200m van de camping, op de Dune du Pilat."
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "decouverte": "Vuelo Descubrimiento",
+    "wagga": "Vuelo Wagga",
+    "tarifs": "Precios",
+    "reserver": "Reservar"
+  },
+  "sections": {
+    "accueil": "Inicio",
+    "ecole": "La Escuela",
+    "decouverte": "Vuelo Descubrimiento",
+    "wagga": "Vuelo Wagga",
+    "tarifs": "Precios",
+    "retours": "Tus Opiniones",
+    "partenaires": "Socios"
+  },
+  "hero": {
+    "decouverte": {
+      "title": "Vuelo Descubrimiento",
+      "price": "Desde 55€",
+      "explore": "Clic para explorar"
+    },
+    "wagga": {
+      "title": "Vuelo Wagga",
+      "price": "Desde 65€",
+      "explore": "Clic para explorar"
+    },
+    "scroll": "Desplazar"
+  },
+  "ecole": {
+    "title_prefix": "Más de",
+    "title_highlight": "20 años",
+    "subtitle": "Waggas School es la escuela de parapente de la Duna de Pilat.",
+    "p1": "Te acompañamos en parapente para volar sobre la duna de Pilat. Podrás descubrir la bahía de Arcachón y la Duna desde el cielo y admirar este paisaje único con los bancos de arena y los parques de ostras del banco de Arguin, el Cap Ferret...",
+    "p2": "Acompañado por un instructor certificado, podrás volar con total seguridad en condiciones de viento perfectamente adaptadas para el parapente.",
+    "p3": "Las fases de despegue y aterrizaje son suaves, literalmente no tienes nada que hacer más que dejarte guiar por el instructor."
+  },
+  "slides": {
+    "decouverte": {
+      "title": "Vuelo Descubrimiento",
+      "desc": "Vuelo tándem clásico (10-15 mins) para admirar la Duna de Pilat desde el cielo.",
+      "subtitle": "Para todos"
+    },
+    "wagga": {
+      "title": "Vuelo Wagga",
+      "desc": "Vuelo de sensaciones (20 mins) con pilotaje dinámico y acrobacias.",
+      "subtitle": "Vuelo sensacional"
+    }
+  },
+  "tarifs_section": {
+    "title": "Precios",
+    "subtitle": "Todas nuestras fórmulas",
+    "faq_title": "Preguntas Frecuentes",
+    "faq": [
+      {
+        "q": "¿Es de pago la reserva online?",
+        "a": "No, la reserva es totalmente gratuita. El pago se realiza in situ el día del vuelo."
+      },
+      {
+        "q": "¿Podemos cambiar el tipo de vuelo in situ?",
+        "a": "¡Sí! Solo se compromete a la duración (10 o 20 min). Puede elegir entre 'descubrimiento' o 'sensación' el mismo día."
+      },
+      {
+        "q": "¿Qué métodos de pago se aceptan?",
+        "a": "Aceptamos Cheques (con 2 identificaciones) y Efectivo. Atención: No se aceptan tarjetas de crédito ni cheques de vacaciones."
+      },
+      {
+        "q": "¿Qué pasa en caso de mal tiempo?",
+        "a": "Se le informará el día anterior entre las 18h y las 20h por correo/SMS. Si el vuelo se cancela, puede reprogramarlo en línea."
+      },
+      {
+        "q": "¿Cuál es el límite de edad y peso?",
+        "a": "La actividad es accesible de 5 a 99 años, para un peso entre 25 kg y 120 kg (según las condiciones del viento)."
+      },
+      {
+        "q": "¿Se requiere alguna condición física específica?",
+        "a": "¡No, es accesible para todos! Únicas contraindicaciones: mujeres embarazadas, fragilidad ósea o hernia."
+      },
+      {
+        "q": "¿Se tiene vértigo en parapente?",
+        "a": "Buenas noticias: ¡no se sufre de vértigo en parapente! El vértigo desaparece en cuanto los pies dejan de tocar el suelo."
+      },
+      {
+        "q": "¿Ofrecen una opción de video?",
+        "a": "¡Es gratis! Puede traer su propio teléfono inteligente o cámara (recuerde traer un palo para selfies)."
+      },
+      {
+        "q": "¿Podemos comprar un cheque regalo?",
+        "a": "¡Sí, el bono se puede descargar gratis en nuestro sitio! El pago solo se realizará el día del vuelo para garantizar el servicio frente a la meteorología."
+      },
+      {
+        "q": "¿Podemos volar sin cita previa?",
+        "a": "Las reservas tienen prioridad. Pero si tenemos plazas libres in situ, ¡es posible!"
+      },
+      {
+        "q": "¿Cómo vestirse para el vuelo?",
+        "a": "Las instrucciones de vestimenta se le enviarán el día anterior por correo electrónico con la confirmación meteorológica."
+      },
+      {
+        "q": "¿Decimos 'salto' o 'vuelo' en parapente?",
+        "a": "¡Estamos hablando de un VUELO! Despegamos suavemente en la duna, no saltamos al vacío."
+      },
+      {
+        "q": "¿Cómo llegar?",
+        "a": "Haga clic en el botón 'Venir à la Waggas School' justo arriba para ver el itinerario completo (Coche, A pie, Barco, Autobús)."
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vuelo Descubrimiento (10 min)",
+        "price": "55€"
+      },
+      {
+        "name": "Vuelo Descubrimiento (20 min)",
+        "price": "90€"
+      },
+      {
+        "name": "Vuelo Sensación Wagga (10 min)",
+        "price": "65€"
+      },
+      {
+        "name": "Vuelo Sensación Wagga (20 min)",
+        "price": "110€"
+      }
+    ],
+    "faq_intro": "¿Tiene alguna pregunta? Encuentre toda la información en nuestra página de preguntas frecuentes o contáctenos directamente.",
+    "view_all_availabilities": "Ver todas las disponibilidades",
+    "access_title": "Venir a Waggas school",
+    "access_subtitle": "Coche • Autobús • Barco • A pie",
+    "view_all_faq": "Ver todas las preguntas",
+    "all_answers": "Todas sus respuestas"
+  },
+  "retours": {
+    "subtitle": "Fotos de nuestros clientes en vuelo",
+    "title": "Tus Opiniones",
+    "button": "Ver todas las opiniones en Google (561 opiniones)",
+    "reviews": [
+      {
+        "text": "\"No puedo decir suficientes cosas buenas sobre Waggas, que nos acompañó hoy en nuestra segunda aventura en parapente... ¡Todo el proceso es menos estresante!\"",
+        "author": "- Solal"
+      },
+      {
+        "text": "\"¡Gracias Arnaud por este momento inolvidable! Un vuelo de 'sensaciones' de primera. ¡Qué alegría! El equipo es muy amable y considerado.\"",
+        "author": "- Alexandra Corsi Chopin"
+      },
+      {
+        "text": "\"¡Qué experiencia! El magnífico paraje natural, clima excepcional... Monitores de un profesionalismo impecable y adorables. Mil gracias a Arnold.\"",
+        "author": "- FABIENNE SIMSEK"
+      },
+      {
+        "text": "\"Waggas School es un equipo genial, una organización top, ¡puedes reservar con los ojos cerrados! ¡Una experiencia para vivir con los ojos bien abiertos!\"",
+        "author": "- Sarah Kaw"
+      },
+      {
+        "text": "\"Reserva hecha para 4 personas, incluyendo 2 niños. Todo fue perfecto, los instructores son extremadamente amables y atentos... ¡Lo recomiendo encarecidamente!\"",
+        "author": "- Mat"
+      },
+      {
+        "text": "\"Un vuelo muy agradable con unas magníficas vistas de la bahía y la duna. Buenas sensaciones en el vuelo waggas. ¡Instructores muy agradables!\"",
+        "author": "- Louna Turpaud"
+      },
+      {
+        "text": "\"¡Una experiencia inolvidable! Un enorme agradecimiento a todo el equipo y a Arnau por este hermoso vuelo. Elegí la opción de 20 minutos y me dieron unos minutos extra.\"",
+        "author": "- Carraki Lecumberri"
+      },
+      {
+        "text": "\"Gracias Jack por esta maravillosa experiencia. Era un sueño desde hace mucho tiempo. Volar sobre la Duna de Pilat es muy recomendable.\"",
+        "author": "- Katja K"
+      }
+    ]
+  },
+  "slide_controls": {
+    "prev": "Atrás",
+    "next": "Siguiente"
+  },
+  "partenaires_section": {
+    "title": "Nuestros socios",
+    "subtitle": "Confían en nosotros y nos acompañan cada día."
+  },
+  "drawer_access": {
+    "title": "Llegar a Waggas school",
+    "subtitle": "Con cita previa",
+    "intro1": "A la sombra de los pinos o bajo el suave sol de la Duna de Pilat, podrás disfrutar plenamente de la diversidad que ofrece este sitio.",
+    "intro2": "Un camino llano y sombreado garantiza la accesibilidad para todos los visitantes.",
+    "car": {
+      "title": "En coche",
+      "subtitle": "Aparcamiento",
+      "parking_name": "Aparcamiento \"Le Sabloney\"",
+      "parking_desc1": "Aparca en el aparcamiento de grava",
+      "parking_desc2": "15 minutos a pie hasta las banderas de Waggas School",
+      "button": "Abrir Aparcamiento en Maps"
+    },
+    "foot": {
+      "title": "A pie",
+      "subtitle": "Ruta a pie",
+      "desc1": "Desde el aparcamiento, sigue el camino hacia la duna que bordea el Pyla Camping (unos 15 min).",
+      "desc2": "Tómalo hasta la duna – busca las banderas de Waggas School.",
+      "desc3": "Llega 30 minutos antes de la hora del vuelo.",
+      "button": "Ubicación exacta de la escuela"
+    },
+    "boat": {
+      "title": "En barco",
+      "desc1": "Si tienes tu propia embarcación, puedes fondear al pie de la Duna de Pilat en la playa \"Robinson\" y unirte a nosotros a pie 50 metros más arriba en las banderas.",
+      "subtitle": "Lanzaderas de barcos (UBA)",
+      "desc2": "También puedes optar por las lanzaderas UBA.",
+      "desc3": "Se organizan lanzaderas de verano para llevarte al pie de la Duna de Pyla \"playa Robinson\" con salida desde Arcachon, Le Moulleau (Pyla sur Mer), Cap Ferret…"
+    },
+    "bus": {
+      "title": "En autobús",
+      "desc1": "Una vez que te bajes en la parada \"Pyla Camping\", puedes llegar a nosotros caminando por el camino forestal situado entre Pyla Camping y Panorama Camping, para llegar al lugar de despegue (10 min).",
+      "warning": "Dado que Pyla Camping es propiedad privada, está prohibido cruzarlo.",
+      "from_arcachon": "Desde Arcachon",
+      "arcachon_desc1": "Toma la Línea 3 y bájate en la parada \"Pyla Camping\".",
+      "arcachon_desc2": "Una vez que te bajes en la parada \"Pyla Camping\", puedes cruzar libremente y gratis a pie el Pyla Camping para llegar al lugar de despegue (10 min).",
+      "from_lateste": "Desde La Teste de Buch",
+      "lateste_desc1": "Se habilitan lanzaderas desde el Centro de Exposiciones de La Teste de Buch hasta la Duna de Pyla. Toma la línea 3 de autobús hasta la parada \"Pyla Camping\".",
+      "lateste_desc2": "Únete a nosotros en la salida del camping \"acceso a la playa\" (lado de la duna).",
+      "lateste_desc3": "Podrás identificarnos gracias a nuestras banderas de Waggas School situadas a 200 m del camping, en la Duna de Pilat."
+    }
+  }
+}
