@@ -38,12 +38,12 @@
   "slides": {
     "decouverte": {
       "title": "Discovery Flight",
-      "desc": "Classic tandem flight (10-15 mins) to admire the Dune du Pilat from the sky.",
+      "desc": "Classic tandem flight (10 or 20 mins) to admire the Dune du Pilat from the sky.",
       "subtitle": "For everyone"
     },
     "wagga": {
       "title": "Wagga Flight",
-      "desc": "Thrill flight (20 mins) with dynamic piloting and acrobatics.",
+      "desc": "Thrill flight (10 or 20 mins) with dynamic piloting and acrobatics.",
       "subtitle": "Thrill flight"
     }
   },

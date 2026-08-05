@@ -38,12 +38,12 @@
   "slides": {
     "decouverte": {
       "title": "Entdeckungsflug",
-      "desc": "Klassischer Tandemflug (10-15 Minuten), um die Dune du Pilat vom Himmel aus zu bewundern.",
+      "desc": "Klassischer Tandemflug (10 oder 20 Minuten), um die Dune du Pilat vom Himmel aus zu bewundern.",
       "subtitle": "Für alle"
     },
     "wagga": {
       "title": "Wagga Flug",
-      "desc": "Erlebnisflug (20 Minuten) mit dynamischer Steuerung und Akrobatik.",
+      "desc": "Erlebnisflug (10 oder 20 Minuten) mit dynamischer Steuerung und Akrobatik.",
       "subtitle": "Flug für Nervenkitzel"
     }
   },

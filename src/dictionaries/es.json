@@ -38,12 +38,12 @@
   "slides": {
     "decouverte": {
       "title": "Vuelo Descubrimiento",
-      "desc": "Vuelo tándem clásico (10-15 mins) para admirar la Duna de Pilat desde el cielo.",
+      "desc": "Vuelo tándem clásico (10 o 20 mins) para admirar la Duna de Pilat desde el cielo.",
       "subtitle": "Para todos"
     },
     "wagga": {
       "title": "Vuelo Wagga",
-      "desc": "Vuelo de sensaciones (20 mins) con pilotaje dinámico y acrobacias.",
+      "desc": "Vuelo de sensaciones (10 o 20 mins) con pilotaje dinámico y acrobacias.",
       "subtitle": "Vuelo sensacional"
     }
   },

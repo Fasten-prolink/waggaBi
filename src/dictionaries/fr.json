@@ -38,12 +38,12 @@
   "slides": {
     "decouverte": {
       "title": "Vol Découverte",
-      "desc": "Baptême de l'air classique (10-15 mins) pour contempler la Dune du Pilat vue du ciel.",
+      "desc": "Baptême de l'air classique (10 ou 20 min) pour contempler la Dune du Pilat vue du ciel.",
       "subtitle": "Formule tous publics"
     },
     "wagga": {
       "title": "Vol Wagga",
-      "desc": "Vol sensation (20 mins) avec pilotage dynamique et acrobaties.",
+      "desc": "Vol sensation (10 ou 20 min) avec pilotage dynamique et acrobaties.",
       "subtitle": "Vol sensation"
     }
   },
