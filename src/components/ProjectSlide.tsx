@@ -3,7 +3,16 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { FaChevronRight, FaChevronLeft, FaVolumeMute, FaVolumeUp } from "react-icons/fa";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
+
+// État global pour synchroniser le son entre toutes les vidéos
+let globalIsMuted = true;
+const toggleGlobalMute = (muted: boolean) => {
+  globalIsMuted = muted;
+  if (typeof window !== 'undefined') {
+    window.dispatchEvent(new CustomEvent('globalMuteChange', { detail: muted }));
+  }
+};
 
 interface ProjectSlideProps {
   imageSrc?: string;
@@ -41,14 +50,59 @@ export default function ProjectSlide({
   children
 }: ProjectSlideProps) {
   const [isMuted, setIsMuted] = useState(true);
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  // Synchronisation de l'état global
+  useEffect(() => {
+    setIsMuted(globalIsMuted);
+    const handleGlobalMute = (e: any) => {
+      setIsMuted(e.detail);
+    };
+    window.addEventListener('globalMuteChange', handleGlobalMute);
+    return () => window.removeEventListener('globalMuteChange', handleGlobalMute);
+  }, []);
+
+  // Lecture/Pause automatique selon la visibilité
+  useEffect(() => {
+    if (!videoRef.current || !containerRef.current) return;
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          videoRef.current?.play().catch(() => {
+            // Si la lecture échoue (ex: politique autoplay sans interaction), on remet en muet
+            if (videoRef.current && !videoRef.current.muted) {
+              videoRef.current.muted = true;
+              setIsMuted(true);
+              toggleGlobalMute(true);
+              videoRef.current.play().catch(() => {});
+            }
+          });
+        } else {
+          videoRef.current?.pause();
+        }
+      });
+    }, { threshold: 0.3 }); // 30% visible = on lance la lecture
+
+    observer.observe(containerRef.current);
+    return () => observer.disconnect();
+  }, []);
+
+  const handleMuteToggle = () => {
+    const newState = !isMuted;
+    setIsMuted(newState);
+    toggleGlobalMute(newState);
+  };
 
   return (
-    <div className={`relative w-screen h-[100dvh] shrink-0 snap-start bg-black flex flex-col md:flex-row ${verticalAlign === 'top' ? 'items-start pt-32 md:pt-40' : verticalAlign === 'bottom' ? 'items-end pb-32' : 'items-center'} justify-center overflow-hidden`}>
+    <div ref={containerRef} className={`relative w-screen h-[100dvh] shrink-0 snap-start bg-black flex flex-col md:flex-row ${verticalAlign === 'top' ? 'items-start pt-32 md:pt-40' : verticalAlign === 'bottom' ? 'items-end pb-32' : 'items-center'} justify-center overflow-hidden`}>
       
       {/* Fullscreen Background */}
       {videoSrc ? (
         <div className="absolute inset-0 z-0 overflow-hidden">
           <video
+            ref={videoRef}
             src={videoSrc}
             autoPlay
             loop
@@ -110,7 +164,7 @@ export default function ProjectSlide({
       {videoSrc && (
         <div className="absolute bottom-12 left-6 md:bottom-10 md:left-10 z-30">
           <button 
-            onClick={() => setIsMuted(!isMuted)}
+            onClick={handleMuteToggle}
             className="w-10 h-10 rounded-full bg-black/50 hover:bg-black/80 border border-white/20 flex items-center justify-center text-white transition-all backdrop-blur-sm group"
           >
             {isMuted ? (
