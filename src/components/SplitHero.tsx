@@ -12,7 +12,7 @@ export default function SplitHero({ dict }: { dict: any }) {
   };
 
   return (
-    <section id="accueil" className="relative w-full h-screen snap-start bg-black overflow-hidden flex flex-col md:flex-row">
+    <section id="accueil" className="relative w-full h-[100dvh] snap-start bg-black overflow-hidden flex flex-col md:flex-row">
       
       {/* LEFT: Vol Découverte */}
       <motion.div 
@@ -38,7 +38,7 @@ export default function SplitHero({ dict }: { dict: any }) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tighter drop-shadow-xl mb-2"
+            className="text-3xl md:text-6xl lg:text-7xl font-bold text-white tracking-tighter drop-shadow-xl mb-2"
           >
             {dict.hero.decouverte.title}
           </motion.h2>
@@ -46,13 +46,13 @@ export default function SplitHero({ dict }: { dict: any }) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="text-xl md:text-2xl text-white/90 font-light mb-6 drop-shadow-md"
+            className="text-lg md:text-2xl text-white/90 font-light mb-4 md:mb-6 drop-shadow-md"
           >
             {dict.hero.decouverte.price}
           </motion.div>
           <motion.div 
             animate={{ opacity: hovered === "left" ? 1 : 0.6 }}
-            className="text-sm md:text-base uppercase tracking-widest text-white/80 font-semibold"
+            className="text-xs md:text-base uppercase tracking-widest text-white/80 font-semibold"
           >
             {dict.hero.decouverte.explore}
           </motion.div>
@@ -83,7 +83,7 @@ export default function SplitHero({ dict }: { dict: any }) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tighter drop-shadow-xl mb-2"
+            className="text-3xl md:text-6xl lg:text-7xl font-bold text-white tracking-tighter drop-shadow-xl mb-2"
           >
             {dict.hero.wagga.title}
           </motion.h2>
@@ -91,13 +91,13 @@ export default function SplitHero({ dict }: { dict: any }) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="text-xl md:text-2xl text-white/90 font-light mb-6 drop-shadow-md"
+            className="text-lg md:text-2xl text-white/90 font-light mb-4 md:mb-6 drop-shadow-md"
           >
             {dict.hero.wagga.price}
           </motion.div>
           <motion.div 
             animate={{ opacity: hovered === "right" ? 1 : 0.6 }}
-            className="text-sm md:text-base uppercase tracking-widest text-white/80 font-semibold"
+            className="text-xs md:text-base uppercase tracking-widest text-white/80 font-semibold"
           >
             {dict.hero.wagga.explore}
           </motion.div>

@@ -5,7 +5,7 @@ import Link from "next/link";
 import SplitHero from "@/components/SplitHero";
 import ProjectSection from "@/components/ProjectSection";
 import ProjectSlide from "@/components/ProjectSlide";
-import { FaStar, FaCar, FaWalking, FaShip, FaBus, FaArrowRight } from "react-icons/fa";
+import { FaStar, FaCar, FaWalking, FaShip, FaBus, FaArrowRight, FaBars } from "react-icons/fa";
 import { useState } from "react";
 import BookingModal from "@/components/BookingModal";
 import SideNavigation from "@/components/SideNavigation";
@@ -18,6 +18,7 @@ export default function HomeClient({ dict, lang }: { dict: any; lang: string }) 
   const [isFaqDrawerOpen, setIsFaqDrawerOpen] = useState(false);
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
   const [drawerFaqOpenIndex, setDrawerFaqOpenIndex] = useState<number | null>(null);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const sections = [
     { id: "accueil", label: dict.sections.accueil },
@@ -39,7 +40,7 @@ export default function HomeClient({ dict, lang }: { dict: any; lang: string }) 
   ];
 
   return (
-    <main className="h-screen w-full bg-black overflow-y-auto overflow-x-hidden snap-y snap-mandatory scroll-smooth hide-scrollbar relative">
+    <main className="h-[100dvh] w-full bg-black overflow-y-auto overflow-x-hidden snap-y snap-mandatory scroll-smooth hide-scrollbar relative">
       <h1 className="sr-only">{dict.seo?.h1 || "Waggas School - Parapente Dune du Pilat"}</h1>
       
       {/* HEADER FIXE */}
@@ -54,6 +55,12 @@ export default function HomeClient({ dict, lang }: { dict: any; lang: string }) 
             priority
           />
         </div>
+        <button 
+          className="md:hidden text-white text-2xl pointer-events-auto drop-shadow-lg"
+          onClick={() => setIsMobileMenuOpen(true)}
+        >
+          <FaBars />
+        </button>
         <nav className="hidden md:flex gap-8 items-center text-white text-sm uppercase tracking-widest font-semibold pointer-events-auto">
           <Link href="#decouverte" className="hover:text-gray-300 transition-colors drop-shadow-md">{dict.nav.decouverte}</Link>
           <Link href="#wagga" className="hover:text-gray-300 transition-colors drop-shadow-md">{dict.nav.wagga}</Link>
@@ -78,40 +85,40 @@ export default function HomeClient({ dict, lang }: { dict: any; lang: string }) 
           align="left"
           nextHintText={dict.slide_controls.next}
         >
-          <div className="w-full h-full flex flex-col pt-24 md:pt-28 pb-2 md:pb-4 max-w-7xl mx-auto px-4 md:px-8 pointer-events-auto">
+          <div className="w-full flex flex-col pt-24 md:pt-28 pb-2 md:pb-4 max-w-7xl mx-auto px-4 md:px-8 pointer-events-auto">
             
-            <div className="flex-1 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
+            <div className="flex-1 flex flex-col md:flex-row items-center justify-start md:justify-center gap-8 md:gap-16">
               {/* Colonne de gauche avec le 20 ans mis en avant */}
               <div className="flex-1">
-                <h2 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-white leading-none drop-shadow-xl mb-6">
+                <h2 className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-white leading-none drop-shadow-xl mb-4 md:mb-6">
                   {dict.ecole.title_prefix} <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">{dict.ecole.title_highlight}</span>
                 </h2>
-                <h4 className="text-lg md:text-xl uppercase tracking-widest text-gray-300 font-semibold drop-shadow-md">
+                <h4 className="text-base md:text-xl uppercase tracking-widest text-gray-300 font-semibold drop-shadow-md">
                   {dict.ecole.subtitle}
                 </h4>
               </div>
 
               {/* Colonne de droite avec le texte descriptif */}
-              <div className="flex-1 bg-black/40 backdrop-blur-md p-8 rounded-2xl border border-white/10 shadow-2xl">
-                <p className="text-gray-200 text-lg md:text-xl font-light leading-relaxed mb-6">
+              <div className="flex-1 bg-black/40 backdrop-blur-md p-6 md:p-8 rounded-2xl border border-white/10 shadow-2xl">
+                <p className="text-gray-200 text-base md:text-xl font-light leading-relaxed mb-4 md:mb-6">
                   {dict.ecole.p1}
                 </p>
-                <div className="h-px w-full bg-white/10 mb-6"></div>
-                <p className="text-gray-300 text-base md:text-lg leading-relaxed mb-6">
+                <div className="h-px w-full bg-white/10 mb-4 md:mb-6"></div>
+                <p className="text-gray-300 text-sm md:text-lg leading-relaxed mb-4 md:mb-6">
                   {dict.ecole.p2}
                 </p>
-                <p className="text-gray-400 text-sm md:text-base italic">
+                <p className="text-gray-400 text-xs md:text-base italic">
                   {dict.ecole.p3}
                 </p>
               </div>
             </div>
 
             {/* PARTENAIRES FIXES */}
-            <div className="w-full mt-auto pt-8 md:pt-12 flex flex-col items-center">
+            <div className="w-full mt-8 md:mt-auto pt-4 md:pt-12 flex flex-col items-center">
               <h4 className="text-xs md:text-sm uppercase tracking-widest text-gray-400 font-semibold mb-6 drop-shadow-md">
                 {dict.partenaires_section?.title || "Nos partenaires"}
               </h4>
-              <div className="flex flex-wrap justify-center items-center gap-6 md:gap-12 w-full">
+              <div className="flex flex-wrap justify-center items-center gap-4 md:gap-12 w-full">
                 {partnersData.map((partner, i) => (
                   <a 
                     key={i} 
@@ -125,7 +132,7 @@ export default function HomeClient({ dict, lang }: { dict: any; lang: string }) 
                       alt={`Logo ${partner.name}`}
                       width={300}
                       height={120}
-                      className={`max-h-20 md:max-h-24 w-auto object-contain transition-all duration-300 ${partner.invert ? 'brightness-0 invert opacity-70 hover:opacity-100' : 'filter grayscale hover:grayscale-0'}`}
+                      className={`max-h-12 md:max-h-24 w-auto object-contain transition-all duration-300 ${partner.invert ? 'brightness-0 invert opacity-70 hover:opacity-100' : 'filter grayscale hover:grayscale-0'}`}
                     />
                   </a>
                 ))}
@@ -216,10 +223,10 @@ export default function HomeClient({ dict, lang }: { dict: any; lang: string }) 
           <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-24 items-start relative z-10 px-4 md:px-8 mt-12 md:mt-24">
             
             {/* Tableau à droite */}
-            <div className="flex-1 w-full max-w-2xl bg-black/60 backdrop-blur-md p-8 rounded-2xl border border-white/10 shadow-2xl pointer-events-auto">
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-2 tracking-tighter">{dict.tarifs_section.title}</h2>
-              <p className="text-gray-300 mb-8 uppercase tracking-widest text-sm">{dict.tarifs_section.subtitle}</p>
-              <ul className="space-y-6">
+            <div className="flex-1 w-full max-w-2xl bg-black/60 backdrop-blur-md p-6 md:p-8 rounded-2xl border border-white/10 shadow-2xl pointer-events-auto">
+              <h2 className="text-3xl md:text-5xl font-bold text-white mb-2 tracking-tighter">{dict.tarifs_section.title}</h2>
+              <p className="text-gray-300 mb-6 md:mb-8 uppercase tracking-widest text-xs md:text-sm">{dict.tarifs_section.subtitle}</p>
+              <ul className="space-y-4 md:space-y-6">
                 {dict.tarifs_section.pricing.map((item: any, i: number) => {
                   const links = [
                     "https://booking.myrezapp.com/fr/online/booking/step1/2025/10543",
@@ -229,10 +236,10 @@ export default function HomeClient({ dict, lang }: { dict: any; lang: string }) 
                   ];
                   return (
                     <li key={i} className="flex flex-col md:flex-row md:justify-between md:items-center border-b border-white/10 pb-4 gap-4">
-                      <span className="text-white md:text-lg font-light">{item.name}</span>
+                      <span className="text-white text-sm md:text-lg font-light">{item.name}</span>
                       <div className="flex items-center justify-between md:justify-end gap-6">
-                        <span className="text-2xl md:text-3xl font-bold text-white group-hover:scale-110 transition-transform origin-right">{item.price}</span>
-                        <button onClick={() => setBookingUrl(links[i])} className="px-4 py-2 border border-white/40 rounded-full text-white text-xs uppercase tracking-widest hover:bg-white hover:text-black transition-colors">
+                        <span className="text-xl md:text-3xl font-bold text-white group-hover:scale-110 transition-transform origin-right">{item.price}</span>
+                        <button onClick={() => setBookingUrl(links[i])} className="px-4 py-2 border border-white/40 rounded-full text-white text-[10px] md:text-xs uppercase tracking-widest hover:bg-white hover:text-black transition-colors">
                           {dict.nav.reserver}
                         </button>
                       </div>
@@ -240,11 +247,11 @@ export default function HomeClient({ dict, lang }: { dict: any; lang: string }) 
                   );
                 })}
               </ul>
-              <div className="mt-12">
-                <p className="text-gray-400 text-sm mb-6 font-light">{dict.tarifs_section?.faq_intro || "Vous avez des questions ? Retrouvez toutes les informations sur notre page FAQ ou contactez-nous directement."}</p>
-                <button onClick={() => setBookingUrl("https://booking.myrezapp.com/fr/online/booking/minisite/2025/ecole-de-parapente-waggas-school")} className="relative group inline-flex w-full items-center justify-center px-8 py-5 border border-white/20 hover:border-white bg-black/20 overflow-hidden transition-all pointer-events-auto rounded-none">
+              <div className="mt-8 md:mt-12">
+                <p className="text-gray-400 text-xs md:text-sm mb-4 md:mb-6 font-light">{dict.tarifs_section?.faq_intro || "Vous avez des questions ? Retrouvez toutes les informations sur notre page FAQ ou contactez-nous directement."}</p>
+                <button onClick={() => setBookingUrl("https://booking.myrezapp.com/fr/online/booking/minisite/2025/ecole-de-parapente-waggas-school")} className="relative group inline-flex w-full items-center justify-center px-6 md:px-8 py-4 md:py-5 border border-white/20 hover:border-white bg-black/20 overflow-hidden transition-all pointer-events-auto rounded-none">
                   <div className="absolute inset-0 bg-white translate-y-[100%] group-hover:translate-y-0 transition-transform duration-500 ease-in-out"></div>
-                  <span className="relative z-10 text-white group-hover:text-black text-xs uppercase tracking-[0.2em] font-medium transition-colors duration-500">
+                  <span className="relative z-10 text-white group-hover:text-black text-[10px] md:text-xs uppercase tracking-[0.1em] md:tracking-[0.2em] font-medium transition-colors duration-500">
                     {dict.tarifs_section?.view_all_availabilities || "Voir toutes les disponibilités"}
                   </span>
                 </button>
@@ -313,7 +320,7 @@ export default function HomeClient({ dict, lang }: { dict: any; lang: string }) 
           align="center"
           prevHintText={dict.slide_controls.prev}
         >
-          <div className="w-full h-full flex flex-col justify-center pt-24 md:pt-32 pb-8 max-w-7xl mx-auto px-4 pointer-events-none">
+          <div className="w-full flex flex-col justify-start md:justify-center pt-24 md:pt-32 pb-8 max-w-7xl mx-auto px-4 pointer-events-none">
             
             <div className="text-center mb-8 pointer-events-auto">
               <h4 className="text-yellow-400 text-sm uppercase tracking-widest font-semibold mb-2">{dict.retours.subtitle}</h4>
@@ -331,13 +338,13 @@ export default function HomeClient({ dict, lang }: { dict: any; lang: string }) 
               </a>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full max-w-full h-[65vh] overflow-y-auto hide-scrollbar pb-12 pointer-events-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full max-w-full h-auto md:h-[65vh] overflow-visible md:overflow-y-auto hide-scrollbar pb-12 pointer-events-auto">
               
               {dict.retours.reviews.map((review: any, index: number) => {
                 const photos = ["photo9.jpg", "photo2.jpg", "photo3.jpg", "photo4.jpg", "photo5.jpg", "photo6.jpg", "photo7.jpg", "photo8.jpg"];
                 return (
-                  <div key={index} className="bg-transparent border border-white/10 overflow-hidden flex flex-col pointer-events-auto group cursor-pointer hover:border-white/40 transition-colors rounded-none">
-                    <div className="h-32 w-full relative overflow-hidden">
+                  <div key={index} className="bg-transparent border border-white/10 overflow-hidden flex flex-col pointer-events-auto group cursor-pointer hover:border-white/40 transition-colors rounded-none min-h-[250px] md:min-h-0">
+                    <div className="h-32 w-full relative overflow-hidden shrink-0">
                       <Image src={`/media/clients/${photos[index % photos.length]}`} alt={`Client ${index + 1}`} fill className="object-cover group-hover:scale-105 transition-transform duration-700 ease-in-out opacity-70 group-hover:opacity-100" />
                     </div>
                     <div className="p-6 flex-1 flex flex-col bg-black/40 backdrop-blur-md">
@@ -364,6 +371,62 @@ export default function HomeClient({ dict, lang }: { dict: any; lang: string }) 
         <BookingModal url={bookingUrl} onClose={() => setBookingUrl(null)} />
       )}
 
+      {/* DRAWER MENU MOBILE */}
+      <AnimatePresence>
+        {isMobileMenuOpen && (
+          <>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="fixed inset-0 bg-black/60 backdrop-blur-sm z-[100]"
+            />
+            <motion.div
+              initial={{ x: "100%" }}
+              animate={{ x: 0 }}
+              exit={{ x: "100%" }}
+              transition={{ type: "spring", bounce: 0, duration: 0.6 }}
+              className="fixed top-0 right-0 w-full h-[100dvh] bg-black/90 backdrop-blur-3xl border-l border-white/10 z-[101] overflow-y-auto p-8 shadow-2xl flex flex-col pointer-events-auto"
+            >
+              <button 
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="absolute top-6 right-6 text-white/50 hover:text-white transition-colors text-2xl"
+              >
+                ✕
+              </button>
+              
+              <div className="w-32 mb-12 mt-4">
+                <Image
+                  src="/Logo-blanc.svg"
+                  alt="Waggas School Logo"
+                  width={160}
+                  height={64}
+                  className="w-full h-auto drop-shadow-xl"
+                />
+              </div>
+
+              <nav className="flex flex-col gap-6 text-white text-lg uppercase tracking-widest font-semibold flex-1">
+                <Link href="#decouverte" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-gray-300 transition-colors drop-shadow-md border-b border-white/10 pb-4">{dict.nav.decouverte}</Link>
+                <Link href="#wagga" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-gray-300 transition-colors drop-shadow-md border-b border-white/10 pb-4">{dict.nav.wagga}</Link>
+                <Link href="#tarifs" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-gray-300 transition-colors drop-shadow-md border-b border-white/10 pb-4">{dict.nav.tarifs}</Link>
+                
+                <div className="mt-8 border-b border-white/10 pb-6 flex justify-between items-center">
+                  <span className="text-sm text-gray-400 capitalize font-light tracking-normal">Langue</span>
+                  <LanguageSwitcher currentLang={lang} />
+                </div>
+              </nav>
+
+              <div className="mt-auto pt-8 pb-4">
+                <button onClick={() => { setBookingUrl("https://booking.myrezapp.com/fr/online/booking/minisite/2025/ecole-de-parapente-waggas-school"); setIsMobileMenuOpen(false); }} className="w-full bg-white text-black px-6 py-4 rounded-full hover:bg-gray-200 transition-colors shadow-lg uppercase font-bold text-sm tracking-widest text-center">
+                  {dict.nav.reserver}
+                </button>
+              </div>
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
+
       {/* DRAWER D'ACCÈS */}
       <AnimatePresence>
         {isDrawerOpen && (
@@ -380,7 +443,7 @@ export default function HomeClient({ dict, lang }: { dict: any; lang: string }) 
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", bounce: 0, duration: 0.6 }}
-              className="fixed top-0 right-0 w-full md:w-[500px] h-full bg-black/70 backdrop-blur-3xl border-l border-white/10 z-[101] overflow-y-auto p-8 shadow-2xl"
+              className="fixed top-0 right-0 w-full md:w-[500px] h-[100dvh] bg-black/70 backdrop-blur-3xl border-l border-white/10 z-[101] overflow-y-auto p-8 shadow-2xl"
             >
               <button 
                 onClick={() => setIsDrawerOpen(false)}
@@ -506,7 +569,7 @@ export default function HomeClient({ dict, lang }: { dict: any; lang: string }) 
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", bounce: 0, duration: 0.6 }}
-              className="fixed top-0 right-0 w-full md:w-[600px] h-full bg-black/70 backdrop-blur-3xl border-l border-white/10 z-[101] overflow-y-auto p-8 shadow-2xl"
+              className="fixed top-0 right-0 w-full md:w-[600px] h-[100dvh] bg-black/70 backdrop-blur-3xl border-l border-white/10 z-[101] overflow-y-auto p-8 shadow-2xl"
             >
               <button 
                 onClick={() => setIsFaqDrawerOpen(false)}

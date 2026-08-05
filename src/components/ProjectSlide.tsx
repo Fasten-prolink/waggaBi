@@ -43,7 +43,7 @@ export default function ProjectSlide({
   const [isMuted, setIsMuted] = useState(true);
 
   return (
-    <div className={`relative w-screen h-screen shrink-0 snap-start bg-black flex flex-col md:flex-row ${verticalAlign === 'top' ? 'items-start pt-32 md:pt-40' : verticalAlign === 'bottom' ? 'items-end pb-32' : 'items-center'} justify-center overflow-hidden`}>
+    <div className={`relative w-screen h-[100dvh] shrink-0 snap-start bg-black flex flex-col md:flex-row ${verticalAlign === 'top' ? 'items-start pt-32 md:pt-40' : verticalAlign === 'bottom' ? 'items-end pb-32' : 'items-center'} justify-center overflow-hidden`}>
       
       {/* Fullscreen Background */}
       {videoSrc ? (
@@ -81,24 +81,24 @@ export default function ProjectSlide({
 
       {/* Content */}
       {title && (
-        <div className={`relative z-10 w-full max-w-7xl pr-8 pl-12 md:px-16 pb-24 md:pb-0 flex flex-col ${align === "right" ? "items-end text-right" : align === "center" ? "items-center text-center" : "items-start text-left"}`}>
+        <div className={`relative z-10 w-full max-w-7xl pr-8 pl-12 md:px-16 pb-24 md:pb-0 flex flex-col ${align === "right" ? "items-end text-right" : align === "center" ? "items-center text-center" : "items-start text-left"} max-h-[85vh] overflow-y-auto hide-scrollbar`}>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
             viewport={{ once: true, margin: "-20%" }}
-            className="max-w-2xl"
+            className="max-w-2xl mt-auto mb-auto py-8"
           >
             {subtitle && (
-              <h4 className="text-sm md:text-base uppercase tracking-widest text-gray-400 font-semibold mb-4">
+              <h4 className="text-sm md:text-base uppercase tracking-widest text-gray-400 font-semibold mb-4 mt-8 md:mt-0">
                 {subtitle}
               </h4>
             )}
-            <h2 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-white leading-none mb-8 drop-shadow-xl">
+            <h2 className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-white leading-none mb-8 drop-shadow-xl">
               {title}
             </h2>
             {description && (
-              <p className="text-lg md:text-xl text-gray-200 font-light leading-relaxed mb-8">
+              <p className="text-base md:text-xl text-gray-200 font-light leading-relaxed mb-8">
                 {description}
               </p>
             )}
@@ -108,7 +108,7 @@ export default function ProjectSlide({
 
       {/* Audio Toggle */}
       {videoSrc && (
-        <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10 z-30">
+        <div className="absolute bottom-12 left-6 md:bottom-10 md:left-10 z-30">
           <button 
             onClick={() => setIsMuted(!isMuted)}
             className="w-10 h-10 rounded-full bg-black/50 hover:bg-black/80 border border-white/20 flex items-center justify-center text-white transition-all backdrop-blur-sm group"
@@ -124,7 +124,7 @@ export default function ProjectSlide({
 
       {/* Arbitrary content if passed */}
       {children && (
-        <div className="relative z-10 w-full max-w-7xl pr-8 pl-12 md:px-16">
+        <div className="relative z-10 w-full max-w-7xl pr-8 pl-12 md:px-16 max-h-[85vh] overflow-y-auto hide-scrollbar py-8 md:py-0">
           {children}
         </div>
       )}

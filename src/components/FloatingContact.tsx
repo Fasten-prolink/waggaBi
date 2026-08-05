@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export default function FloatingContact() {
   return (
-    <div className="fixed bottom-6 right-4 md:bottom-10 md:right-10 z-50 flex flex-col gap-4">
+    <div className="fixed bottom-16 right-4 md:bottom-10 md:right-10 z-50 flex flex-col gap-4">
       <motion.a 
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}

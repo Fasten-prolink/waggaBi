@@ -75,7 +75,7 @@ export default function ProjectSection({
   };
 
   return (
-    <div id={id} className="relative w-full h-screen snap-start bg-black">
+    <div id={id} className="relative w-full h-[100dvh] snap-start bg-black">
       <section 
         ref={scrollRef} 
         onScroll={handleScroll}
