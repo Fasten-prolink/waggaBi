@@ -114,7 +114,7 @@ export default function ProjectSection({
 
       {/* Horizontal Navigation Dots */}
       {totalSlides > 1 && (
-        <div className="absolute bottom-6 md:bottom-10 left-1/2 -translate-x-1/2 z-50 flex items-center gap-0">
+        <div className="absolute bottom-20 md:bottom-24 left-1/2 -translate-x-1/2 z-50 flex items-center gap-0">
           {Array.from({ length: totalSlides }).map((_, index) => {
             const isActive = activeSlide === index;
             return (
